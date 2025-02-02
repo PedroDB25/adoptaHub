@@ -9,9 +9,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Runs at a scheduled time
+  schedule:
+    - cron: '0 0 * * *'  # This cron expression means "At 00:00 (midnight) UTC every day"
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -31,13 +35,44 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Ensure last_run.txt exists
+        run: |
+          if [ ! -f last_run.txt ]; then
+            echo "1970-01-01" > last_run.txt
+          fi
+
+      - name: Check last run date
+        id: check_date
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          LAST_RUN=$(cat last_run.txt)
+          echo "Last run date: $LAST_RUN"
+          echo "Today's date: $TODAY"
+          if [ "$TODAY" == "$LAST_RUN" ]; then
+            echo "Workflow already ran today. Exiting."
+            exit 0
+          fi
+
+      - name: Update last run date
+        if: steps.check_date.outcome == 'success'
+        run: |
+          date +%Y-%m-%d > last_run.txt
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+          git add last_run.txt
+          git commit -m "Update last run date"
+          git push
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # Upload only the 'page' directory
           path: './page'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
