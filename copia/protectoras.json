@@ -4,15 +4,10 @@
             "number": 14,
             "name": "A.D.A.N.A.",
             "phone": "952 113 467 ",
-            "web": "https://adana.es",
+            "web": "https://adana.es/",
             "mailto": "adoptions@adana.es",
             "comunidad_autonoma": "andalucia",
-            "paginas": [
-                "/es/dogs-for-adoption/puppies/",
-                "/es/dogs-for-adoption/small-dogs/",
-                "/es/dogs-for-adoption/medium-dogs/",
-                "/es/dogs-for-adoption/large-dogs/"
-            ],
+            "paginas": null,
             "da_datos": 0,
             "logo": "https://adana.es/site/templates/img/logo.png"
         },

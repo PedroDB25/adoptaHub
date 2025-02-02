@@ -2,7 +2,7 @@ import logging
 import json
 import requests
 from bs4 import BeautifulSoup
-from sections.buscadorProtectoras.model.Protectora import Protectora
+from shared.model.Protectora import Protectora
 import re
 
 class BuscadorProtectorasUseCase:
@@ -61,5 +61,3 @@ class BuscadorProtectorasUseCase:
         logging.debug("escribirFichero() called")
         with open(r"page\resources\js\protectoras.json", "w", encoding="utf-8") as file:
             json.dump(map_protectoras, file, ensure_ascii=False, indent=4)
-
-        return map_protectoras

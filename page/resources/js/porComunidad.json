@@ -1,0 +1,24 @@
+{
+    "name": "protectoras",
+    "link": "https://www.addaong.org/es/informacion/listado-de-protectoras-de-animales/",
+    "links": {
+        "madrid": "madrid/",
+        "andalucia": "andalucia/",
+        "aragon": "aragon/",
+        "asturias": "asturias/",
+        "pais-vasco": "pais-vasco/",
+        "Canarias": "canarias/",
+        "Cantabria": "cantabria/",
+        "Castilla la Mancha": "castilla-la-mancha/",
+        "Castilla y León":  "castilla-y-leon/",
+        "Cataluña":  "cataluna/",
+        "Comunidad Valenciana":  "comunidad-valenciana/",
+        "Extremadura": "extremadura/",
+        "Galicia": "galicia/",
+        "Islas Baleares": "islas-baleares/",
+        "La Rioja": "la-rioja/",
+        "Madrid": "madrid/",
+        "Murcia": "murcia/",
+        "Navarra": "navarra/"
+    }
+}
