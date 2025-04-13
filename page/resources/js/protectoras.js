@@ -1,66 +1,99 @@
-
-
-
 async function loadJSON(ruta) {
     try {
         const response = await fetch(ruta);
         if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
+            throw new Error('Error en la red: ' + response.statusText);
         }
         return await response.json();
-        // You can now use the JSON data
     } catch (error) {
-        console.error('There was a problem with the fetch operation:', error);
+        console.error('Hubo un problema al obtener los datos:', error);
     }
 }
+let ruta = "resources/js/protectoras.json"
+const protectoras = await loadJSON(ruta);
+const comunidades = Object.keys(protectoras);
 
-let protectoras = await loadJSON("resources\\js\\protectoras.json");
-let comunidades = Object.keys(protectoras)
-
-//creacion de componente comunidad
 for (let comunidad of comunidades) {
-    let comunidadAutonoma = document.createElement("div")
-    comunidadAutonoma.className = "comunidad"
+    const comunidadAutonoma = document.createElement("details");
+    comunidadAutonoma.className = "comunidad";
 
+    const titulo = document.createElement("summary");
+    const tituloTexto = document.createElement("h2");
+    tituloTexto.textContent = comunidad;
+    titulo.appendChild(tituloTexto);
+    comunidadAutonoma.appendChild(titulo);
 
-    let titulo = document.createElement("h2")
-    titulo.innerHTML = comunidad
-    comunidadAutonoma.appendChild(titulo)
-
-    
-    let protectorasCaja = document.createElement("div")
-    protectorasCaja.className = "protectoras"
+    const protectorasCaja = document.createElement("div");
+    protectorasCaja.classList.add("protectoras");
 
     for (let protectora of protectoras[comunidad]) {
-        let protectoraButton = document.createElement("button")
-        protectoraButton.className = "protectora"
-        protectoraButton.setAttribute("popovertarget", "protectora"+ protectora.number)
-        
-        let popover = document.createElement("popover")
-        popover.className = "popover"
-        popover.innerHTML = `${protectora.name} <br>` 
-        popover.innerHTML += protectora.logo != null ?`<img src="${protectora.logo}"><br>`: ""
-        popover.innerHTML += protectora.phone != null ?`numero: ${protectora.phone} <br>`: ""
-        popover.innerHTML += protectora.mailto != null ?`email: ${protectora.mailto} <br>` : ""
-        popover.innerHTML += protectora.web != null ? `web: <a href="${protectora.web}"> ${protectora.web}</a>` : ""
-                            
-                            
-                           
-                            
-        popover.setAttribute("popover", "")
-        popover.id = "protectora"+ protectora.number
-        protectorasCaja.appendChild(popover)
-        
+        const protectoraCaja = document.createElement("div");
+        protectoraCaja.id = protectora.number;
+        protectoraCaja.classList.add("protectoraCaja", "card");
 
-        let name = document.createElement("h3")
-        name.innerHTML = protectora.name
-        protectoraButton.appendChild(name)
+        protectoraCaja.innerHTML += `
+            <h5 class="card-title">${protectora.name}</h5>
+        `;
 
-        protectorasCaja.appendChild(protectoraButton)
+        if (protectora.web) {
+            protectoraCaja.innerHTML += `
+                <a class='btn btn-outline-success' href='${protectora.web}' target="_blank">Sitio Web</a>
+            `;
+        }
+            
+        // Añadir los atributos para activar el modal cuando se hace clic en la tarjeta
+        protectoraCaja.setAttribute("data-bs-toggle", "modal");  // Para activar el modal
+        protectoraCaja.setAttribute("data-bs-target", "#modalInfo");  // ID del modal
+        protectoraCaja.setAttribute("data-id", protectora.number);  // ID de la protectora para identificarla
 
+
+        protectorasCaja.appendChild(protectoraCaja);
     }
-    
-    comunidadAutonoma.appendChild(protectorasCaja)
-    document.querySelector("#CAs").appendChild(comunidadAutonoma)
-    //break
+
+    comunidadAutonoma.appendChild(protectorasCaja);
+    document.querySelector("#CAs").appendChild(comunidadAutonoma);
 }
+// add event listener to the button
+[...document.querySelectorAll(".protectoraCaja")].forEach(x => {
+    x.addEventListener("click", async () => {
+        // get element clicked
+        const protectoraCaja = event.currentTarget;
+        // get the id of the clicked element
+        const id = protectoraCaja.id;
+
+        const protectora = await (await fetch(ruta)).json().then(data => {
+            // get the comunidad of the clicked element
+            const comunidad = Object.keys(data)
+
+            for (let com of comunidad) {
+                // get the protectora of the clicked element
+                const protectora = data[com].find(p => p.number == id);
+                if (protectora) {
+                    return protectora;
+                }
+            }
+        })
+        if (protectora) {
+            const modalBody = document.querySelector("#protectoraInfo");
+            modalBody.innerHTML = `
+            ${protectora.logo ? `
+            <div class="text-center mb-4">
+                <img src="${protectora.logo}" alt="${protectora.name}" class="img-fluid" style="max-height: 150px; max-width: 200px;">
+            </div>` : ""
+            }
+
+            <h4>${protectora.name || "Nombre no disponible"}</h4>
+            ${protectora.comunidad_autonoma ? `<p><strong>Comunidad Autónoma:</strong> ${protectora.comunidad_autonoma}</p>` : ""}
+            ${protectora.phone ? `<p><strong>Teléfono:</strong> ${protectora.phone}</p>` : ""}
+            ${protectora.mailto ? `<p><strong>Correo:</strong> <a href="mailto:${protectora.mailto}">${protectora.mailto}</a></p>` : ""}
+            ${protectora.web ? `<p><strong>Sitio Web:</strong> <a href="${protectora.web}" target="_blank">${protectora.web}</a></p>` : ""}
+            ${protectora.paginas && protectora.paginas.length > 0 ? `
+            <p><strong>Páginas de adopción:</strong></p>
+            <p>${protectora.paginas.map(pagina => `<a href="${protectora.web + pagina}" target="_blank">${protectora.web + pagina}</a>`).join(', ')}</p>
+            ` : ""}
+        `;
+        }
+
+
+    })
+});

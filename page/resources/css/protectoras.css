@@ -1,11 +1,77 @@
+/* Estilo general */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+}
+
+.titulo {
+    color: #67b26f;
+    font-weight: 700;
+}
+
+/* Sección de comunidades */
+.comunidad {
+    margin-bottom: 3rem;
+}
+
+.comunidad h2 {
+    color: #67b26f;
+    border-bottom: 2px solid #67b26f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Contenedor de tarjetas de protectoras */
 .protectoras {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
+    gap: 1rem;
+    justify-content: center;
+}
 
-    .protectora{
-        width: 20vh;
-        max-width: 20vh;
-    }
+/* Tarjeta de protectora */
+.protectoraCaja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+    max-width: 220px;
+    min-height: 160px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.protectoraCaja:hover {
+    transform: scale(1.03);
+}
+
+.protectoraCaja .btn {
+    margin-top: 0.5rem;
+}
+summary {
+    list-style-type: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: relative;
+}
+
+summary::before {
+    content: '+';
+    font-weight: 700;
+    color: #67b26f;
+    position: absolute;
+    left: -1.5rem;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+    content: '-';
 }

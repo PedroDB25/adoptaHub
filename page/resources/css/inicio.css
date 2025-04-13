@@ -7,3 +7,29 @@
     height: 3em;
     }
 }
+
+/* Fuente principal y color base */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+}
+
+/* Títulos */
+.titulo {
+    color: #67b26f;
+}
+
+.subtitulo {
+    color: #4f4f4f;
+}
+
+/* Sección de historia */
+.historia {
+    max-width: 800px;
+}
+
+/* Mensaje final */
+.mensaje-final {
+    color: #67b26f;
+}
