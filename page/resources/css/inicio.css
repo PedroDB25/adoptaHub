@@ -1,12 +1,4 @@
-.botones {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    .boton{
-        width: 20vh;
-    height: 3em;
-    }
-}
+
 
 /* Fuente principal y color base */
 body {
