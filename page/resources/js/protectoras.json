@@ -1,9 +1,9 @@
-{   
+{
     "andalucia": [
         {
             "number": 14,
             "name": "A.D.A.N.A.",
-            "phone": "952 113 467 ",
+            "phone": "952 113 467",
             "web": "https://adana.es",
             "mailto": "adoptions@adana.es",
             "comunidad_autonoma": "andalucia",
@@ -19,46 +19,59 @@
         {
             "number": 15,
             "name": "A.P.A.R.I.V. Protectora Rincón Victoria",
-            "phone": "657 219 269 / 628 676 764 ",
+            "phone": "657 219 269 / 628 676 764",
             "web": "https://apariv.eu/index.php",
             "mailto": "apariv@billnot.com",
             "comunidad_autonoma": "andalucia",
-            "paginas": null,
+            "paginas": [
+                "/los-perros/busca-en-casa"
+            ],
             "da_datos": 0,
             "logo": "https://apariv.eu/images/buttons/loga_apariv_neu.png"
         },
         {
             "number": 16,
             "name": "ARCA  Jaén (Asociación para la defensa y el cuidado de los animales y plantas)",
-            "phone": "953 236 374 / 653 918 795 ",
+            "phone": "953 236 374 / 653 918 795",
             "web": "https://protectora-arca.blogspot.com/",
             "mailto": "arcajaen@ono.com",
             "comunidad_autonoma": "andalucia",
-            "paginas": null,
+            "paginas": [
+                "/"
+            ],
             "da_datos": 0,
             "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAJOHlbRKk2cCCPxLMkc-NuCxIO3edm1xpGlbF-ohpSdnY4OhKUYgHGMjuvj1RkxQIzgVYo9Hr5ChQIcbPYaqG7za-TvQQiQVspHyyc7-U_DvQzQB_eesioKKzWzP0HA/s220/Clip+LogotipoARCA+537+x+537_fijo+2.png"
         },
         {
             "number": 17,
             "name": "ARCA -Asociación para el respeto y el cuidado de los animales",
-            "phone": "654 949 759 ",
-            "web": "https://www.arcasevilla.es/arca/",
+            "phone": "654 949 759",
+            "web": "https://www.arcasevilla.es/",
             "mailto": "arca@arcasevilla.es",
             "comunidad_autonoma": "andalucia",
-            "paginas": null,
+            "paginas": [
+                "/en-adopcion/perros-en-adopcion-adultos/",
+                "/en-adopcion/perros-cachorros-en-adopcion/",
+                "/en-adopcion/especiales/",
+                "/en-adopcion/gatos-adultos-2/",
+                "/en-adopcion/gatos-cachorros-2/"
+            ],
             "da_datos": 0,
             "logo": "https://www.arcasevilla.es/wp-content/uploads/2014/04/logo-web1.png"
         },
         {
             "number": 18,
-            "name": "ASANDA   Asociación Andaluza para la Defensa de los Animales",
+            "name": "ASANDA Asociación Andaluza para la Defensa de los Animales",
             "phone": "95 456 10 58",
-            "web": null,
-            "mailto": null,
+            "web": "https://asanda.org/",
+            "mailto": "asap.granada@gmail.com",
             "comunidad_autonoma": "andalucia",
-            "paginas": null,
+            "paginas": [
+                "/adult-dogs",
+                "/puppies-and-young-dogs"
+            ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://asanda.org/imagenes/general/asanda_loba_200.gif"
         },
         {
             "number": 19,
@@ -73,9 +86,9 @@
         },
         {
             "number": 20,
-            "name": "Adoptalo.com    Asociación Protectora de animales",
+            "name": "Adoptalo.com Asociación Protectora de animales",
             "phone": "664 227 235",
-            "web": "https://www.adoptalo.com",
+            "web": null,
             "mailto": "info@adoptalo.com",
             "comunidad_autonoma": "andalucia",
             "paginas": null,
@@ -96,7 +109,7 @@
         {
             "number": 22,
             "name": "Arca de Noe",
-            "phone": "675 225 953 ",
+            "phone": "675 225 953",
             "web": "https://arcadenoe.org",
             "mailto": "contacto@arcadenoe.org",
             "comunidad_autonoma": "andalucia",
@@ -111,7 +124,7 @@
                 "/la-35-dificil-adopcion-gatos"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://arcadenoe.org/_mibambu/_arcadenoe/imas/logo-arcadenoe.jpg?1"
         },
         {
             "number": 23,
@@ -127,7 +140,7 @@
         {
             "number": 24,
             "name": "Asociación Cordobesa P.A.P San Martin de Porres",
-            "phone": " 957 27 24 51",
+            "phone": "957 27 24 51",
             "web": null,
             "mailto": null,
             "comunidad_autonoma": "andalucia",
@@ -140,11 +153,11 @@
             "name": "Asociación DDEVIDA",
             "phone": "647 632 528",
             "web": "https://www.ddevida.org/",
-            "mailto": null,
+            "mailto": "ddevida@ddevida.org",
             "comunidad_autonoma": "andalucia",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://www.ddevida.org/images/logo.gif"
         },
         {
             "number": 26,
@@ -163,7 +176,7 @@
                 "/adopciones-otras-mascotas-roedores/"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://34232cb108.clvaw-cdnwnd.com/b80b80c6df23331eef53a5b67ded331f/200003205-08db008db1/700/IMG-20200130-WA0030-29.webp?ph=34232cb108"
         },
         {
             "number": 27,
@@ -176,7 +189,7 @@
                 "/animales?gender-in=male%2Cfemale%2Cunknown&status-in=adoption%2Creserved&location-in=shelter%2Ctemporary_home%2Canimal_home&kind-in=dog%2Ccat%2Chorse%2Crodent%2Cbird%2Creptile%2Cother"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://cdn.sukycms.com/shelters/179/images/logo.png"
         },
         {
             "number": 28,
@@ -193,7 +206,7 @@
                 "/casosespeciales"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://gatosdeapapa.org/_mibambu/_gatosapapa/imas/encabezado-mobile.jpg"
         },
         {
             "number": 231,
@@ -209,24 +222,7 @@
                 "/casosespeciales"
             ],
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 29,
-            "name": "Asociación para el Respeto y Cuidado de los Animales ",
-            "phone": "654 949 759",
-            "web": "https://www.arcasevilla.es/",
-            "mailto": "arca@inicia.es",
-            "comunidad_autonoma": "andalucia",
-            "paginas": [
-                "/en-adopcion/perros-en-adopcion-adultos/",
-                "/en-adopcion/perros-cachorros-en-adopcion/",
-                "/en-adopcion/especiales/",
-                "/en-adopcion/gatos-adultos-2/",
-                "/en-adopcion/gatos-cachorros-2/"
-            ],
-            "da_datos": 0,
-            "logo": null
+            "logo": "https://gatosdeapapa.org/_mibambu/_gatosapapa/imas/encabezado-mobile.jpg"
         },
         {
             "number": 30,
@@ -239,56 +235,23 @@
                 "/perros-en-adopcion/?per_page=100"
             ],
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 31,
-            "name": "Parque Animal (Asoc. para la Defensa y Protección de los Animales de Torremolinos)",
-            "phone": null,
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "andalucia",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
+            "logo": "https://www.nomeabandones.org/wp-content/uploads/2022/09/logo.svg"
         },
         {
             "number": 32,
             "name": "Protectora Animales La Guarida",
-            "phone": "607 812 816 ",
-            "web": null,
+            "phone": "607 812 816",
+            "web": "https://www.facebook.com/laguaridapuentegenil/?locale=es_ES",
             "mailto": "juncalin@gmail.com",
             "comunidad_autonoma": "andalucia",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 33,
-            "name": "S.P. Animales y Plantas",
-            "phone": null,
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "andalucia",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 34,
-            "name": "S.P.A.P. CERRO DE LOS INFANTES - Centro de Acogida Canina",
-            "phone": "608 459 482 / 608 861 539 ",
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "andalucia",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
+            "logo": "https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/468134048_995674539266131_7579750457946090405_n.jpg?stp=dst-jpg_p200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=f907e8&_nc_ohc=mY565sVqBOsQ7kNvwE9RfzM&_nc_oc=AdndqgVbfpr46d4g_XeEPxp4kieQd7GjXfFbL28HnG4U2-MSIwLpdf5MC3Qrie7zbIM4BAuTExCbVa3gdRA0WTw9&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=RNC0w3NAdjYTrEHKc4xQ3A&oh=00_AfFeB5gnp55p7y5_Ed_yev5u6jk4f6UeE44TEtqFtVVFXQ&oe=6801EA93"
         },
         {
             "number": 35,
             "name": "S.P.A.P.S.  Sociedad Protectora de Animales y Plantas de Sevilla",
-            "phone": " 955 72 42 52 / 955 72 50 27",
+            "phone": "955 72 42 52 / 955 72 50 27",
             "web": "https://www.spaps.es/",
             "mailto": "caa@spapsevilla.com",
             "comunidad_autonoma": "andalucia",
@@ -296,7 +259,7 @@
                 "/"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://image.jimcdn.com/app/cms/image/transf/dimension=826x10000:format=png/path/s9cf1095eb228ec8b/image/ibc0b72973967c0ea/version/1561200511/image.png"
         },
         {
             "number": 36,
@@ -311,18 +274,18 @@
                 "/adoptar-perros-el-refugio-escuela-marlene"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://elrefugioescuela.com/sofia/wp-content/uploads/2020/06/El-Refugio-Escuela-MARLENE-Disen%CC%83o-ampliado-1-1536x372.png"
         },
         {
             "number": 37,
             "name": "SPAP Alondra de Dupont",
-            "phone": "676 966 605 ",
+            "phone": "676 966 605",
             "web": "http://www.indalguau.com/",
             "mailto": "alondra@indalguau.com",
             "comunidad_autonoma": "andalucia",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://scontent.xx.fbcdn.net/v/t39.30808-1/283037163_380542644117802_7997333366390027161_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&_nc_cat=108&ccb=1-7&_nc_sid=fe756c&_nc_ohc=Dp7UVwL4vVAQ7kNvwEHSWlp&_nc_oc=AdlU1MZ5Hs_Ix26Kb33QtdvYAS27T3OMPp65GOz15z_w578K_7vxCbWx-b0zJpfv5gE&_nc_zt=24&_nc_ht=scontent.xx&edm=AEDRbFQEAAAA&_nc_gid=Pr3_qOlF017gagLhsS4Maw&oh=00_AfEl7MS8-1GQkxvTcBaYqjBXB9L6AswoyS-eisQSBuyG0g&oe=6801C9D2"
         },
         {
             "number": 38,
@@ -335,7 +298,7 @@
                 "/animales?estado=en-adopcion"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://cdn.sukycms.com/shelters/79/images/7FOMellZrHq5YnOYp3tkvUvvgvEtUMbbJQRDAyuH.png"
         },
         {
             "number": 39,
@@ -349,7 +312,7 @@
                 "/listing-category/gatos/?view=list"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://refugiokimba.org/wp-content/uploads/2018/09/logo_transparente.png"
         },
         {
             "number": 40,
@@ -360,7 +323,7 @@
             "comunidad_autonoma": "andalucia",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://refugiosfa.org/images/logo.png"
         },
         {
             "number": 41,
@@ -374,27 +337,7 @@
                 "/machos-en-adopcion/"
             ],
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 42,
-            "name": "Sociedad Protectora Animales y Plantas y Liga Protección Caballo",
-            "phone": "954 906 662",
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "andalucia",
-            "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 43,
-            "name": "Sociedad Protectora de Animales de Roquetas de Mar",
-            "phone": null,
-            "web": null,
-            "mailto": "protectoravicar@hotmail.com",
-            "comunidad_autonoma": "andalucia",
-            "da_datos": 0,
-            "logo": null
+            "logo": "https://animalesdebaeza.org/wp-content/uploads/2019/11/titulo-1.png"
         },
         {
             "number": 44,
@@ -409,7 +352,7 @@
         {
             "number": 45,
             "name": "Sociedad protectora de Animales de Ceuta",
-            "phone": "637 573 337 / 648 815 515 /  609 588 629   ",
+            "phone": "637 573 337 / 648 815 515 /  609 588 629  ",
             "web": "https://www.protectoraanimalesceuta.es/",
             "mailto": "animalesprotectoraceuta@gmail.com",
             "comunidad_autonoma": "andalucia",
@@ -418,12 +361,12 @@
                 "/adopta/perros/"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://www.protectoraanimalesceuta.es/wp-content/uploads/go-x/u/548c11c7-87e6-46ed-a02f-5f9f3ce11f31/image-342x342.png"
         },
         {
             "number": 46,
             "name": "Sociedad protectora de animales y plantas de Málaga",
-            "phone": "952 25 81 43 / 609 53 05 89 ",
+            "phone": "952 25 81 43 / 609 53 05 89",
             "web": "https://www.protectoramalaga.com/",
             "mailto": "protectora@protectoramalaga.org",
             "comunidad_autonoma": "andalucia",
@@ -432,17 +375,18 @@
                 "/gatos-en-adopcion/1/"
             ],
             "da_datos": 0,
-            "logo": null
+            "logo": "https://www.protectoramalaga.com/images/logo.gif"
         },
         {
             "number": 47,
             "name": "Triple A Marbella - San Pedro",
             "phone": "952 771 586 / 696 280 319 / 607 468 660",
-            "web": "https://www.aaahelps.com",
+            "web": "https://www.tripleamarbella.org/es",
             "mailto": "nfo@tripleamarbella.org",
             "comunidad_autonoma": "andalucia",
             "paginas": null,
-            "da_datos": 0
+            "da_datos": 0,
+            "logo": "https://www.tripleamarbella.org/img/TAM-logo.png"
         }
     ],
     "aragon": [
@@ -450,12 +394,12 @@
             "number": 49,
             "name": "Alborada Protectora Aragonesa de Animales",
             "phone": "649 382 727",
-            "web": "https://www.protectoraalborada.org",
+            "web": "https://www.facebook.com/p/Protectora-Aragonesa-Alborada-100069372289106/?locale=es_ES",
             "mailto": "protectoraalborada@gmail.com",
             "comunidad_autonoma": "aragon",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/375457949_620543856934685_801854347274567004_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=oesJFMg5vZIQ7kNvwH86Fzp&_nc_oc=AdmMR0E8r18l3Zi6BPz0R_zhbxrlwnq-T_MNDIb2epIS4B3mw5VbUUES8lAK8OSOVcWMMn8smlBui0ps3_ODhy6r&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=rWC9wVUPr8IltpWsNH_gig&oh=00_AfHD5G9mL1WIQbWzAL5fuDR03xA5rzTnfo-3aL3JqsOi0g&oe=6801F733"
         },
         {
             "number": 50,
@@ -466,18 +410,18 @@
             "comunidad_autonoma": "aragon",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://adpca.es/wp-content/uploads/2017/08/logotipo-adpca.jpg"
         },
         {
             "number": 51,
             "name": "Asociación Protectora Animales y Plantas Pirineos",
-            "phone": "636 65 16 00 ",
+            "phone": "636 65 16 00",
             "web": "http://www.protectora-jaca.org",
-            "mailto": null,
+            "mailto": "info@protectora-jaca.org",
             "comunidad_autonoma": "aragon",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://protectora-jaca.org/wp-content/uploads/2019/09/IMG-20190923-WA0013-e1569793038709.jpg"
         },
         {
             "number": 52,
@@ -485,31 +429,23 @@
             "phone": "699 702 060",
             "web": null,
             "mailto": "info@elarca.es",
-            "comunidad_autonoma": "aragon"
+            "comunidad_autonoma": "aragon",
+            "paginas": null,
+            "da_datos": 0,
+            "logo": "https://www.elarca.es/layouts/elarcadesanti/default/img/logo_arca.png"
         }
     ],
     "asturias": [
         {
-            "number": 53,
-            "name": "A.P.A.S. Francisco de Asís",
-            "phone": "689 539 400 / 985 372 390",
-            "web": "http://www.apasa-sanfranciscodeasis.es.kz/",
-            "mailto": "apasa-sanfranciscodeasis@hotmail.com",
-            "comunidad_autonoma": "asturias",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
-        },
-        {
             "number": 54,
-            "name": "ADOPTASTUR",
+            "name": "Adoptastur",
             "phone": "659 687 817 / 609 862 268",
-            "web": " http://www.adoptastur.org",
+            "web": "https://www.facebook.com/Adoptastur/?locale=es_ES",
             "mailto": "adoptastur@adoptastur.org",
             "comunidad_autonoma": "asturias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/326746111_716815963401054_6633226278192458534_n.jpg?stp=c53.0.838.838a_dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=MhJTTi6Wx6kQ7kNvwGkURHb&_nc_oc=AdkdA2gq4w-OVqhSGcYxWAVJ-TJNrVECTGvUnbPkh0VZPPetxfnXLAsakdCWgJxzFcaW8KK9RPsB30g9DfCIPnAd&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=jXtEzRARmb-WgjiKZYESjw&oh=00_AfFdP0T066ThLCILwyF-Nfe0dxfPRQveCAceC2rBKAo1Rw&oe=6801D909"
         },
         {
             "number": 55,
@@ -520,18 +456,7 @@
             "comunidad_autonoma": "asturias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 56,
-            "name": "Asociación Protectora Animales y Plantas de Gijón",
-            "phone": "985 303 451 / 985 974 798",
-            "web": "http://groups.msn.com/protectoradegijon",
-            "mailto": "protectoradegijon@hotmail.com",
-            "comunidad_autonoma": "asturias",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
+            "logo": "https://www.elgatofeliz.es/wp-content/uploads/2020/04/elgatofeliz_negro_180X60.png"
         },
         {
             "number": 57,
@@ -542,35 +467,24 @@
             "comunidad_autonoma": "asturias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 58,
-            "name": "Centro Protector de Animales y Plantes de Avilés",
-            "phone": "985 563 058 / 985 563 618 / 985 562 118 ",
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "asturias",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
+            "logo": "http://laxana.org/images/head.gif"
         },
         {
             "number": 59,
             "name": "MASQUECHUCHOS",
             "phone": null,
-            "web": "http://www.masquechuchos.com/",
+            "web": "https://masquechuchos.org/",
             "mailto": "asociacionmasquechuchos@gmail.com",
             "comunidad_autonoma": "asturias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://masquechuchos.org/_mibambu/_masquechuchos/imas/encabezado.jpg"
         },
         {
             "number": 60,
             "name": "Soc. Protectora Animales Mieres",
             "phone": "669 314 463",
-            "web": null,
+            "web": "https://www.mieres.es/albergue-municipal-de-animales-de-mieres/",
             "mailto": null,
             "comunidad_autonoma": "asturias"
         }
@@ -578,14 +492,14 @@
     "pais-vasco": [
         {
             "number": 61,
-            "name": " Sociedad Protectora Animales y Plantas de Guipúzcoa",
+            "name": "Sociedad Protectora Animales y Plantas de Guipúzcoa",
             "phone": "943 37 66 50 / 669 46 97 92",
             "web": "https://www.protectoradegipuzkoa.com",
             "mailto": "spapg2@yahoo.es",
             "comunidad_autonoma": "pais-vasco",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://www.protectoradegipuzkoa.com/wp-content/uploads/2017/02/Logo_protectora_gipuzkoa..jpg"
         },
         {
             "number": 62,
@@ -596,29 +510,18 @@
             "comunidad_autonoma": "pais-vasco",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://www.sosbilbao.org/wp-content/uploads/2023/03/apasos-logo_1oscuro.webp"
         },
         {
             "number": 63,
-            "name": "ANIMALIAK",
+            "name": "Bihotzetik Elkartea",
             "phone": null,
-            "web": "https://www.animaliak.es",
-            "mailto": "info.animaliak@gmail.com",
+            "web": "https://adoptarunanimal.com/",
+            "mailto": "bihotzetikelkartea@gmail.com",
             "comunidad_autonoma": "pais-vasco",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 64,
-            "name": "Asociacion Protectora de Animales y Plantas de Guipuzcoa ",
-            "phone": "943 37 66 50",
-            "web": "http://www.protectoradegipuzkoa.com/",
-            "mailto": "spapg2@yahoo.es",
-            "comunidad_autonoma": "pais-vasco",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
+            "logo": "https://adoptarunanimal.com/wp-content/uploads/2020/04/favicon.jpg.webp"
         },
         {
             "number": 65,
@@ -629,89 +532,59 @@
             "comunidad_autonoma": "pais-vasco",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 66,
-            "name": "SPAP Álava Vicky Moore",
-            "phone": "686 47 37 52",
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "pais-vasco",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 67,
-            "name": "Sociedad Protectora Ayuntamiento de Bizkaia",
-            "phone": "609 438 109",
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "pais-vasco"
+            "logo": "https://miaumor.org/wp-content/uploads/2021/08/cropped-58382603_1009386622782330_7096710008053694464_n-compressor.png"
         }
     ],
     "canarias": [
         {
             "number": 68,
-            "name": " Asociación Refugio Internacional para Animales ",
-            "phone": "922 37 24 31 ",
-            "web": "https://www.animalsrefuge.com",
+            "name": "Asociación Refugio Internacional para Animales",
+            "phone": "922 37 24 31",
+            "web": "https://refugiodeanimales.org/",
             "mailto": null,
             "comunidad_autonoma": "canarias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://refugiodeanimales.org/wp-content/uploads/2023/12/cropped-LOGO-RIA-1-150x150-1.png"
         },
         {
             "number": 69,
             "name": "A.D.E.P.A.C.",
-            "phone": " 669 767 448",
-            "web": "http://www.adepaccanarias.com/",
+            "phone": "669 767 448",
+            "web": "https://www.facebook.com/adepaccanarias",
             "mailto": "adepac@adepaccanarias.com",
             "comunidad_autonoma": "canarias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/326244600_3455712651370454_8389317807016289042_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=vaM5M1xAMSgQ7kNvwHtLDfl&_nc_oc=Admbl3V5Oba3ot_UprJFHSUJacRiyc-x8LhOXkFpsW7wWNTZOqKcErUYPk9c4Ms-kuqIgtDLZTBqGCNvGzOztJe7&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=wmDN8lhlSmip_vUhcstMVw&oh=00_AfFGoCYgW0xxe40gqB2U4_K9mvnJDwEr4y1oNc1aNOJ01Q&oe=680200FA"
         },
         {
             "number": 70,
             "name": "A.P.A.T. - A. PROANIMALS Tenerife",
             "phone": "922 37 50 20 - 922 33 18 51",
-            "web": null,
+            "web": "https://www.facebook.com/apat.animal/?locale=es_ES",
             "mailto": null,
             "comunidad_autonoma": "canarias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/332175567_6408629979169382_3010920312464564429_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=QqdXF4QMSnwQ7kNvwH5w-db&_nc_oc=AdlyiVfnmcJS7S4sHduMEzGm6lAzS4bqx4x9s9Uof5D5MxOpXOpnZ6DWoRjNuvrCKGEqpS7nSLK4kUFoEc6b8bRv&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=wm9j73qOH-8zwPWCIr4sMQ&oh=00_AfGvDcWWU8M0ldDCv3dbD2pRD0i-MDfkvRMg-N_g158Z5w&oe=6801EFE4"
         },
         {
             "number": 71,
             "name": "ANAHI",
             "phone": "660 326 224 / 660 326 096",
-            "web": "http://www.anahianimales.org",
+            "web": "https://minuevomejoramigo.com/protectora/anahi/",
             "mailto": "animalesanahi@hotmail.com",
             "comunidad_autonoma": "canarias",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://minuevomejoramigo.com/wp-content/uploads/2023/10/logo-minuevomejoramigo1.svg"
         },
         {
             "number": 72,
-            "name": "Asociación Protectora de los Animales \"La Rosaleda\" ",
+            "name": "Asociación Protectora de los Animales \"La Rosaleda\"",
             "phone": "616 451 515",
-            "web": "https://www.teneriffa-tierheim.de",
-            "mailto": null,
-            "comunidad_autonoma": "canarias",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 73,
-            "name": "LIVE ARICO LAAP -Asociación Protectora animales y Plantas",
-            "phone": "609 43 33 96 - 607 56 09 03 - 618 38 12 45 ",
-            "web": "https://www.livearicotenerife.org",
+            "web": "https://www.facebook.com/p/Asociaci%C3%B3n-Protectora-de-Animales-La-Rosaleda-100069844307824/?locale=es_ES",
             "mailto": null,
             "comunidad_autonoma": "canarias",
             "paginas": null,
@@ -721,17 +594,20 @@
         {
             "number": 74,
             "name": "“Sara” Asociación Protectora de Animales y Plantas",
-            "phone": null,
-            "web": "https://www.webspace.es/sara",
+            "phone": "928 17 34 17",
+            "web": "https://saraprotectora.org/",
             "mailto": null,
-            "comunidad_autonoma": "canarias"
+            "comunidad_autonoma": "canarias",
+            "da_datos": 0,
+            "logo": "https://saraprotectora.org/wp-content/uploads/2020/01/LOGO-SARA150.png"
         }
     ],
     "cantabria": [
         {
+            "aqui": "voy aqui revisando las asociaciones",
             "number": 75,
             "name": "ASPACAN (Asociación de Protección y Adopción Canina)",
-            "phone": "637 722 804 (refugio Laredo)  / 650 537 300 (refugio Torres) ",
+            "phone": "637 722 804 (refugio Laredo)  / 650 537 300 (refugio Torres)",
             "web": null,
             "mailto": null,
             "comunidad_autonoma": "cantabria",
@@ -828,8 +704,8 @@
         },
         {
             "number": 84,
-            "name": "S.P.A T Plantas el Cóndor ",
-            "phone": "967 344 347 / 967 340 346 ",
+            "name": "S.P.A T Plantas el Cóndor",
+            "phone": "967 344 347 / 967 340 346",
             "web": null,
             "mailto": null,
             "comunidad_autonoma": "castilla-la-mancha",
@@ -883,7 +759,7 @@
         {
             "number": 89,
             "name": "Asociación Protectora de Animales Lara",
-            "phone": "615.656.703 ",
+            "phone": "615.656.703",
             "web": "http://www.asociacionlara.org/",
             "mailto": "contacto@asociacionlara.org",
             "comunidad_autonoma": "castilla-y-leon",
@@ -926,8 +802,8 @@
         },
         {
             "number": 93,
-            "name": "Protectora de Animales \"HUELLAS\" de Ávila",
-            "phone": " 920 208 045 / 629 165 788",
+            "name": "Protectora de Animales \"HUELLAS\"de Ávila",
+            "phone": "920 208 045 / 629 165 788",
             "web": "http://www.protectorahuellas.org",
             "mailto": "info@protectorahuellas.org",
             "comunidad_autonoma": "castilla-y-leon",
@@ -970,8 +846,8 @@
         },
         {
             "number": 97,
-            "name": "Sociedad Protectora Animales y Plantas Aldeaseca de Armuña ",
-            "phone": "923 250 727 ",
+            "name": "Sociedad Protectora Animales y Plantas Aldeaseca de Armuña",
+            "phone": "923 250 727",
             "web": null,
             "mailto": "cmhr@usuarios.retecal.es",
             "comunidad_autonoma": "castilla-y-leon",
@@ -1002,7 +878,7 @@
     "cataluna": [
         {
             "number": 100,
-            "name": " APAN Associació Protectora d’Animals de l’Anoia",
+            "name": "APAN Associació Protectora d’Animals de l’Anoia",
             "phone": "699 41 00 47",
             "web": "http://protectora-apan.org",
             "mailto": "info@protectora-apan.org",
@@ -1013,7 +889,7 @@
         },
         {
             "number": 101,
-            "name": " P.A.S.O.S  Protecció Animal SOS El Vendrell ",
+            "name": "P.A.S.O.S  Protecció Animal SOS El Vendrell",
             "phone": "666 080 262",
             "web": "https://protectoradeanimales.info/p-a-s-o-s-proteccion-animal-el-vendrell/",
             "mailto": "pasosvendrell@hotmail.com",
@@ -1036,7 +912,7 @@
         {
             "number": 103,
             "name": "A.P.A.G. GRANOLLERS",
-            "phone": " 93 840 27 77 ",
+            "phone": "93 840 27 77",
             "web": "http://www.protectoragranollers.org/",
             "mailto": "info@protectoragranollers.org",
             "comunidad_autonoma": "cataluna",
@@ -1112,7 +988,7 @@
         },
         {
             "number": 110,
-            "name": "Amics Defensa i Benestar de Gossos i Gats ",
+            "name": "Amics Defensa i Benestar de Gossos i Gats",
             "phone": "977 666 572",
             "web": "https://perrosygatosolos.foroactivo.com/t281-amics-defensa-i-benestar-de-gossos-i-gats",
             "mailto": null,
@@ -1178,8 +1054,8 @@
         },
         {
             "number": 116,
-            "name": "Associació Berguedana per a la Protecció dels Animals  ",
-            "phone": " 938 22 12 91",
+            "name": "Associació Berguedana per a la Protecció dels Animals ",
+            "phone": "938 22 12 91",
             "web": "https://protectoraberga.protecms.com/",
             "mailto": "prote.berga@telefonica.net",
             "comunidad_autonoma": "cataluna",
@@ -1190,7 +1066,7 @@
         {
             "number": 117,
             "name": "Associació Defensa dels Animals El Masnou   -ADAM",
-            "phone": "650 796 050 ",
+            "phone": "650 796 050",
             "web": "http://adamprotectora.org/",
             "mailto": null,
             "comunidad_autonoma": "cataluna",
@@ -1256,7 +1132,7 @@
         {
             "number": 123,
             "name": "Associació pel Benestar dels Animals de Montgat  -ABAM",
-            "phone": "651 561 028 / 670 651 545 ",
+            "phone": "651 561 028 / 670 651 545",
             "web": "http://www.gosmontgat.com",
             "mailto": "info@gosmontgat.com",
             "comunidad_autonoma": "cataluna",
@@ -1267,7 +1143,7 @@
         {
             "number": 124,
             "name": "BU BUP PARC (Refugi de la Bisbal) Fundació Altarriba",
-            "phone": "696 652 749 / 93 412 00 73 ",
+            "phone": "696 652 749 / 93 412 00 73",
             "web": "https://www.altarriba.org/bu-bup-parc/",
             "mailto": "bbp@altarriba.org",
             "comunidad_autonoma": "cataluna",
@@ -1300,7 +1176,7 @@
         {
             "number": 127,
             "name": "CAAD Maresme-Argentona",
-            "phone": " 93 797 42 72",
+            "phone": "93 797 42 72",
             "web": "https://www.caadmaresme.com/",
             "mailto": "atencioanimals@ccmaresme.cat",
             "comunidad_autonoma": "cataluna",
@@ -1332,7 +1208,7 @@
         },
         {
             "number": 130,
-            "name": "CCAAC Barcelonés -Centre Comarcal d'Atenció d'Animals de Companyia ",
+            "name": "CCAAC Barcelonés -Centre Comarcal d'Atenció d'Animals de Companyia",
             "phone": "93 465 52 24",
             "web": "http://atencioanimals.barcelones.cat/cat/onsom.php",
             "mailto": "atencioanimals@barcelones.cat.",
@@ -1344,7 +1220,7 @@
         {
             "number": 131,
             "name": "Centre d'Acollida d'Animals Domèstics del Moianès",
-            "phone": "93 820 92 01 ",
+            "phone": "93 820 92 01",
             "web": "http://caadmoianes.moia.cat/qui-som/",
             "mailto": "caadmoianes@moia.cat",
             "comunidad_autonoma": "cataluna",
@@ -1355,7 +1231,7 @@
         {
             "number": 132,
             "name": "Centre d'Acolliment d'Animals Can Moret",
-            "phone": "938 43 02 53 ",
+            "phone": "938 43 02 53",
             "web": null,
             "mailto": "canmoret@hotmail.com",
             "comunidad_autonoma": "cataluna",
@@ -1504,7 +1380,7 @@
         {
             "number": 145,
             "name": "Protectora d'Animals Lidia Argilés",
-            "phone": " 686 234 542",
+            "phone": "686 234 542",
             "web": "http://protectoraanimalslydiaargiles.blogspot.com/",
             "mailto": "protectoraanimalslydiaargiles@hotmail.com",
             "facebook": null,
@@ -1539,7 +1415,7 @@
         },
         {
             "number": 148,
-            "name": "Protectora d'animals  -EL MOLÍ  ",
+            "name": "Protectora d'animals  -EL MOLÍ ",
             "phone": "666 717 950",
             "web": null,
             "mailto": null,
@@ -1599,7 +1475,7 @@
         },
         {
             "number": 153,
-            "name": "Refugi d'Animals del Ripollés ",
+            "name": "Refugi d'Animals del Ripollés",
             "phone": "609 52 97 88",
             "web": null,
             "mailto": "refugiripolles@gmail.com",
@@ -1612,7 +1488,7 @@
         {
             "number": 154,
             "name": "Refugi d'Animals i Protecció a la Natura del Baix Llobregat i Barcelonés",
-            "phone": "626 316 663 / 659 390 767 ",
+            "phone": "626 316 663 / 659 390 767",
             "web": null,
             "mailto": null,
             "facebook": null,
@@ -1649,7 +1525,7 @@
             "number": 157,
             "name": "SAVE LIFE",
             "phone": null,
-            "web": "http://savealife.es/ ",
+            "web": "http://savealife.es/",
             "mailto": "info@savealife.es",
             "facebook": null,
             "comunidad_autonoma": "cataluna",
@@ -1732,7 +1608,7 @@
     "comunidad-valenciana": [
         {
             "number": 164,
-            "name": " Asociación Protectora de Animales de  Dénia (APAD) ",
+            "name": "Asociación Protectora de Animales de  Dénia (APAD)",
             "phone": "660 80 24 87",
             "web": "https://www.apad-denia.eu",
             "mailto": null,
@@ -1744,7 +1620,7 @@
         },
         {
             "number": 165,
-            "name": " FEDENVA: Federación para la Protección y Defensa del Animal en la comunidad-valenciana",
+            "name": "FEDENVA: Federación para la Protección y Defensa del Animal en la comunidad-valenciana",
             "phone": "645 794 138",
             "web": null,
             "mailto": "fedenva@gmail.com",
@@ -1756,7 +1632,7 @@
         },
         {
             "number": 166,
-            "name": " Sociedad Protectora de  Animales y Plantas de Alcoy",
+            "name": "Sociedad Protectora de  Animales y Plantas de Alcoy",
             "phone": "650 579 108",
             "web": "https://www.protectoradealcoy.com",
             "mailto": null,
@@ -1780,7 +1656,7 @@
         },
         {
             "number": 168,
-            "name": "ARCADYS -Asociación para el Respeto y la Convivencia con los Animales Domésticos y Salvajes ",
+            "name": "ARCADYS -Asociación para el Respeto y la Convivencia con los Animales Domésticos y Salvajes",
             "phone": "96 373 91 05",
             "web": "https://www.arcadys.org",
             "mailto": "administracion@arcadys.org",
@@ -1804,9 +1680,9 @@
         },
         {
             "number": 170,
-            "name": "ASPAC  -Amigos de los animales de Castellón ",
-            "phone": " 964 253 097",
-            "web": "https://www.aspac.org.es ",
+            "name": "ASPAC  -Amigos de los animales de Castellón",
+            "phone": "964 253 097",
+            "web": "https://www.aspac.org.es",
             "mailto": "info@aspac.org.es",
             "facebook": null,
             "comunidad_autonoma": "comunidad-valenciana",
@@ -1852,7 +1728,7 @@
         },
         {
             "number": 174,
-            "name": "Associació Protectora d'Animals \"El Cau\" de Vinarós",
+            "name": "Associació Protectora d'Animals \"El Cau\"de Vinarós",
             "phone": "687 450 794",
             "web": "http://protectora-elcau.jimdo.com/",
             "mailto": "protectoraelcau@hotmail.com",
@@ -1864,9 +1740,9 @@
         },
         {
             "number": 175,
-            "name": "PROTECTORA EL CAU ",
+            "name": "PROTECTORA EL CAU",
             "phone": "687 45 07 94",
-            "web": "https://www.protectoraelcau.org ",
+            "web": "https://www.protectoraelcau.org",
             "mailto": null,
             "facebook": null,
             "comunidad_autonoma": "comunidad-valenciana",
@@ -1936,8 +1812,8 @@
         },
         {
             "number": 181,
-            "name": "SOCIEDAD PROTECTORA DE ANIMALES DE XÀTIVA ",
-            "phone": " 606 238 544 / 669 257 251 / 615 068 203 ",
+            "name": "SOCIEDAD PROTECTORA DE ANIMALES DE XÀTIVA",
+            "phone": "606 238 544 / 669 257 251 / 615 068 203",
             "web": "http://www.protectoraxativa.org/",
             "mailto": "infospax@protectoraxativa.org",
             "facebook": null,
@@ -1960,7 +1836,7 @@
         },
         {
             "number": 183,
-            "name": "SPAP - Sociedad Protectora de Animales y Plantas de Alcoy ",
+            "name": "SPAP - Sociedad Protectora de Animales y Plantas de Alcoy",
             "phone": null,
             "web": "http://www.protectoradealcoy.com/",
             "mailto": "info@protecoradealcoy.com",
@@ -1998,7 +1874,7 @@
             "number": 186,
             "name": "Sociedad Protectora de Animales y Plantas de Villena",
             "phone": "616 39 18 13",
-            "web": "https://www.protectoravillena.com ",
+            "web": "https://www.protectoravillena.com",
             "mailto": "info@protectoravillena.com",
             "facebook": null,
             "comunidad_autonoma": "comunidad-valenciana",
@@ -2010,7 +1886,7 @@
         {
             "number": 187,
             "name": "ASOCIACIÓN PROTECTORA DE ANIMALES Y PLANTAS de Cáceres",
-            "phone": "927 420 473 / 610 661 885 ",
+            "phone": "927 420 473 / 610 661 885",
             "web": null,
             "mailto": null,
             "facebook": null,
@@ -2035,7 +1911,7 @@
             "number": 189,
             "name": "Asociación Protectora de Animales y Plantas de Don Benito - PRADO",
             "phone": "685 521 540",
-            "web": "http://www.protectoraprado.blogspot.com.es/  ",
+            "web": "http://www.protectoraprado.blogspot.com.es/ ",
             "mailto": "informacionprado@gmail.com",
             "facebook": null,
             "comunidad_autonoma": "extremadura",
@@ -2118,8 +1994,8 @@
         },
         {
             "number": 196,
-            "name": "Protectora de Animales - Refugio de Cambados ",
-            "phone": "649 919 849 ",
+            "name": "Protectora de Animales - Refugio de Cambados",
+            "phone": "649 919 849",
             "web": "http://protectoraanimalescambados.es",
             "mailto": "info@refugiocambados.es",
             "facebook": null,
@@ -2168,7 +2044,7 @@
             "number": 200,
             "name": "Sociedad Protectora de Animais Gatocán",
             "phone": null,
-            "web": "http://www.gatocan.com ",
+            "web": "http://www.gatocan.com",
             "mailto": "asociaciongatocan@gmail.com",
             "facebook": null,
             "comunidad_autonoma": "galicia",
@@ -2191,7 +2067,7 @@
     "islas-baleares": [
         {
             "number": 202,
-            "name": "Associació per a la Protecció dels Animals de Menorca ",
+            "name": "Associació per a la Protecció dels Animals de Menorca",
             "phone": "971 353 330 / 971 351 486",
             "web": null,
             "mailto": null,
@@ -2263,7 +2139,7 @@
         },
         {
             "number": 208,
-            "name": "Sociedad Protectora de Animales y Plantas de Mallorca ",
+            "name": "Sociedad Protectora de Animales y Plantas de Mallorca",
             "phone": "971 47 00 60",
             "web": "https://www.spapmallorca.org/",
             "mailto": null,
@@ -2324,7 +2200,7 @@
         },
         {
             "number": 213,
-            "name": "Centro de Protección de Animales de Logroño ",
+            "name": "Centro de Protección de Animales de Logroño",
             "phone": "661 611 703",
             "web": "https://www.cpalogro_o.es",
             "mailto": "info@palogro_o.es",
@@ -2338,7 +2214,7 @@
         {
             "number": 0,
             "name": "A.N.A.A. Asociación Nacional de Amigos de los Animales",
-            "phone": "913 19 79 75 / 915 44 73 76 ",
+            "phone": "913 19 79 75 / 915 44 73 76",
             "web": "https://www.anaaweb.org",
             "mailto": "anaa@anaaweb.org",
             "comunidad_autonoma": "madrid",
@@ -2404,8 +2280,8 @@
         },
         {
             "number": 5,
-            "name": "Asociación para el Bienestar de los Animales El Refugio ",
-            "phone": "917 303 680 / 619 756 831 ",
+            "name": "Asociación para el Bienestar de los Animales El Refugio",
+            "phone": "917 303 680 / 619 756 831",
             "web": "https://elrefugio.org",
             "mailto": "info@elrefugio.org",
             "comunidad_autonoma": "madrid",
@@ -2470,8 +2346,8 @@
         },
         {
             "number": 10,
-            "name": "S.O.S. POBLACION FELINA ",
-            "phone": " 656 621 368 ",
+            "name": "S.O.S. POBLACION FELINA",
+            "phone": "656 621 368",
             "web": "https://www.sosfelinos.org",
             "mailto": "info@sosfelinos.org",
             "comunidad_autonoma": "madrid",
@@ -2519,7 +2395,7 @@
         {
             "number": 228,
             "name": "PERROS ABANDONADOS",
-            "phone": "968 563 328 ",
+            "phone": "968 563 328",
             "web": null,
             "mailto": null,
             "facebook": null,
@@ -2544,7 +2420,7 @@
         {
             "number": 230,
             "name": "Sociedad Protectora de Animales de Navarra",
-            "phone": "948 151 615 ",
+            "phone": "948 151 615",
             "web": "http://www.protectoranavarra.org",
             "mailto": "protectoranavarra@gmail.com",
             "facebook": null,
