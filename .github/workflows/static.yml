@@ -55,19 +55,19 @@ jobs:
           fi
 
       - name: Update last run date
-            if: steps.check_date.outcome == 'success'
-            run: |
-              date +%Y-%m-%d > last_run.txt
-              git config --global user.email "you@example.com"
-              git config --global user.name "Your Name"
-              git add last_run.txt
-              git commit -m "Update last run date"
-              git push
+        if: steps.check_date.outcome == 'success'
+        run: |
+          date +%Y-%m-%d > last_run.txt
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+          git add last_run.txt
+          git commit -m "Update last run date"
+          git push
 
       - name: Notify if workflow already ran today
-            if: steps.check_date.outcome != 'success'
-            run: |
-              echo "The workflow has already been executed today. No further actions will be performed."
+        if: steps.check_date.outcome != 'success'
+        run: |
+          echo "The workflow has already been executed today. No further actions will be performed."
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
