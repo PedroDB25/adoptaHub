@@ -66,10 +66,7 @@
             "web": "https://asanda.org/",
             "mailto": "asap.granada@gmail.com",
             "comunidad_autonoma": "andalucia",
-            "paginas": [
-                "/adult-dogs",
-                "/puppies-and-young-dogs"
-            ],
+            "paginas": null,
             "da_datos": 0,
             "logo": "https://asanda.org/imagenes/general/asanda_loba_200.gif"
         },
@@ -80,7 +77,10 @@
             "web": "https://www.asapgranada.es",
             "mailto": "info@asapgranada.es",
             "comunidad_autonoma": "andalucia",
-            "paginas": null,
+            "paginas": [
+                "/adult-dogs",
+                "/puppies-and-young-dogs"
+            ],
             "da_datos": 0,
             "logo": null
         },
