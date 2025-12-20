@@ -31,5 +31,7 @@ class CopiarAPage:
         shutil.copy(self.rutaMascotas, 'page/resources/js') if self.rutaMascotas else ""
         shutil.copy(self.rutaPretectoras, 'page/resources/js') if self.rutaPretectoras else ""
 
-a = CopiarAPage()
-a.execute()
+
+if __name__ == "__main__":
+    a = CopiarAPage()
+    a.execute()

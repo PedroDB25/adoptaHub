@@ -19,7 +19,7 @@ class BuscadorMascotasUseCase:
     # cargar en memoria las protectoras
     def cargarDatos(self) -> dict:
         logging.debug("cargarDatos() called")
-        with open(r"resources\protectoras.json", encoding="utf-8") as file:
+        with open(r"resources/protectoras.json", encoding="utf-8") as file:
             return json.load(file)
 
     # leer cada protectora
@@ -34,8 +34,6 @@ class BuscadorMascotasUseCase:
                 if (protectoraClase.web) and protectoraClase.paginas:
                     mascotas[protectoraClase.name] = self.obtenerMascotas(protectoraClase)
 
-                break
-            break
         return mascotas
 
     def obtenerMascotas(self, protectora: Protectora):
@@ -79,10 +77,38 @@ class BuscadorMascotasUseCase:
                     number += 1
                     ListaDeMascotas.append(mascota)
         
+        if protectora.number == 15:
+            return  # Tienen Facebook
+
+        if protectora.number == 16:
+            for pagina in protectora.paginas:
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+                }
+                llamada = requests.get(
+                    protectora.web + pagina, timeout=5, headers=headers)
+                soup = BeautifulSoup(llamada.text, 'html.parser')
+                nodos = soup.select("td a img")
+
+                for img in nodos:
+
+                    mascota = Mascota(number=number,
+                            name=img.get("alt"),
+                            image=img.get("src"),
+                            comunidadAutonoma=protectora.comunidad_autonoma,
+                            protectora=protectora.name,
+                            link = img.get("src"))
+                    number += 1
+                    ListaDeMascotas.append(mascota)
+
+            
+
+
+        
         dict_list = [model.dict() for model in ListaDeMascotas]
         return dict_list
     
     def generarJsonMascotas(self, mapMascotas):
         logging.debug("escribirFichero() called")
-        with open(r"resources\mascotas.json", "w", encoding="utf-8") as file:
+        with open(r"resources/mascotas.json", "w", encoding="utf-8") as file:
             json.dump(mapMascotas, file, ensure_ascii=False, indent=4)

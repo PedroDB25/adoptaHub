@@ -604,16 +604,15 @@
     ],
     "cantabria": [
         {
-            "aqui": "voy aqui revisando las asociaciones",
             "number": 75,
             "name": "ASPACAN (Asociación de Protección y Adopción Canina)",
             "phone": "637 722 804 (refugio Laredo)  / 650 537 300 (refugio Torres)",
-            "web": null,
+            "web": "https://www.aspacan.org/",
             "mailto": null,
             "comunidad_autonoma": "cantabria",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://static.wixstatic.com/media/b68dc9_8bc256355ef04b51871f8d07367e7fe1.png/v1/crop/x_0,y_1,w_1309,h_1012/fill/w_181,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b68dc9_8bc256355ef04b51871f8d07367e7fe1.png"
         },
         {
             "number": 76,
@@ -621,7 +620,8 @@
             "phone": "639 007 219",
             "web": "https://www.asproan.org",
             "mailto": "info@asproan.org",
-            "comunidad_autonoma": "cantabria"
+            "comunidad_autonoma": "cantabria",
+            "logo": "https://asproansantander.es/wp-content/themes/petinnlite/assets/images/logo.png"
         }
     ],
     "castilla-la-mancha": [
@@ -634,35 +634,35 @@
             "comunidad_autonoma": "castilla-la-mancha",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "http://protectoralabienvenida.es/img/la-bienvenida-logo-1486328288.jpg"
         },
         {
             "number": 78,
             "name": "A.P.A.P. VILLANANA",
             "phone": "92 685 3722",
-            "web": "https://www.apap-alcala.org/enlaces/espana.html",
+            "web": "https://www.apap-alcala.org/",
             "mailto": null,
             "comunidad_autonoma": "castilla-la-mancha",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://www.apap-alcala.org/images/logo%20apap_1.jpg"
         },
         {
             "number": 79,
             "name": "APAP Arca de Noe",
             "phone": "967 508 278",
-            "web": "http://www.ibichos.com/elarcadenoe/index.php/the-community.html",
+            "web": "https://ibichos.com/",
             "mailto": null,
             "comunidad_autonoma": "castilla-la-mancha",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://ibichos.com/images/logo.png"
         },
         {
             "number": 80,
             "name": "Asociación Protectora de Animales  \"La Esperanza\"",
             "phone": "652 987 520",
-            "web": "http://www.apalaesperanza.es/",
+            "web": "https://www.facebook.com/groups/159499621340211/?locale=es_LA",
             "mailto": null,
             "comunidad_autonoma": "castilla-la-mancha",
             "paginas": null,
@@ -678,48 +678,38 @@
             "comunidad_autonoma": "castilla-la-mancha",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://cuencanimal.com/wp-content/uploads/2023/02/logo359.png"
         },
         {
             "number": 82,
             "name": "Asociación Protectora de Animales San Francisco de Asís",
-            "phone": "926 800 588",
-            "web": null,
-            "mailto": null,
+            "phone": "606 382 921",
+            "web": "https://refugioasis.org/",
+            "mailto": "info@refugioasis.org",
             "comunidad_autonoma": "castilla-la-mancha",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://refugioasis.org/wp-content/uploads/2019/05/cropped-Logo-protectora-animales-Irixoa.png"
         },
         {
             "number": 83,
             "name": "LA ALDEA DEL BURRITO",
             "phone": "687 551 703",
-            "web": "https://www.laaldeadelburrito.com",
+            "web": "https://www.elrefugiodelburrito.org/",
             "mailto": "info@aldeadelburrito.com",
             "comunidad_autonoma": "castilla-la-mancha",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 84,
-            "name": "S.P.A T Plantas el Cóndor",
-            "phone": "967 344 347 / 967 340 346",
-            "web": null,
-            "mailto": null,
-            "comunidad_autonoma": "castilla-la-mancha",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
+            "logo": "https://www.elrefugiodelburrito.org/themes/custom/espana/images/logo.svg?svh2tj"
         },
         {
             "number": 85,
             "name": "Sociedad Protectora de Animales CAREA",
             "phone": null,
-            "web": null,
+            "web": "https://careaprotectora.blogspot.com/",
             "mailto": null,
-            "comunidad_autonoma": "castilla-la-mancha"
+            "comunidad_autonoma": "castilla-la-mancha",
+            "logo": "null"
         }
     ],
     "castilla-y-leon": [
@@ -880,18 +870,18 @@
             "number": 100,
             "name": "APAN Associació Protectora d’Animals de l’Anoia",
             "phone": "699 41 00 47",
-            "web": "http://protectora-apan.org",
+            "web": "https://www.protectora-apan.org/",
             "mailto": "info@protectora-apan.org",
             "comunidad_autonoma": "cataluna",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://www.protectora-apan.org/wp-content/uploads/2022/10/nou-logo-apan-portada-e1666260928456.jpg"
         },
         {
             "number": 101,
             "name": "P.A.S.O.S  Protecció Animal SOS El Vendrell",
             "phone": "666 080 262",
-            "web": "https://protectoradeanimales.info/p-a-s-o-s-proteccion-animal-el-vendrell/",
+            "web": "https://www.facebook.com/p/Asociaci%C3%B3n-PASOS-El-Vendrell-100080644246174/",
             "mailto": "pasosvendrell@hotmail.com",
             "comunidad_autonoma": "cataluna",
             "paginas": null,
@@ -902,7 +892,7 @@
             "number": 102,
             "name": "A.P.A. Rodamón",
             "phone": "972 301 486 / 629 260 464",
-            "web": "https://www.facebook.com/aparodamon.rodamon/",
+            "web": "https://www.facebook.com/aparodamon",
             "mailto": "http://www.aparodamon.com/",
             "comunidad_autonoma": "cataluna",
             "paginas": null,
@@ -918,7 +908,7 @@
             "comunidad_autonoma": "cataluna",
             "paginas": null,
             "da_datos": 0,
-            "logo": null
+            "logo": "https://i0.wp.com/protectoragranollers.org/wp-content/uploads/2024/06/logo-apag.webp?w=280&ssl=1"
         },
         {
             "number": 104,
@@ -937,17 +927,6 @@
             "phone": "696 515 445 / 643 684 910",
             "web": "https://www.facebook.com/RefugioAPAE",
             "mailto": "apaexoticos@gmail.com",
-            "comunidad_autonoma": "cataluna",
-            "paginas": null,
-            "da_datos": 0,
-            "logo": null
-        },
-        {
-            "number": 106,
-            "name": "APAP Ferrater Mora",
-            "phone": null,
-            "web": "http://micompi.com/directorio/protectora-de-animales/ver/detalle/apap-ferrater-mora/235/?ids=235",
-            "mailto": null,
             "comunidad_autonoma": "cataluna",
             "paginas": null,
             "da_datos": 0,

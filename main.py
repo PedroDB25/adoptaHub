@@ -4,9 +4,9 @@ from sections.buscadorProtectoras.application.buscarorProtectorasUseCase import 
 from sections.copiarAPage.application.copiarAPage import CopiarAPage
 from shared.helpers.loggingHelper import LogginHelper
 
-BUSCARPROTECTORAS = 0
-BUSCARMASCOTAS = 1
-COPIARAPAGE = 0
+BUSCARPROTECTORAS = False
+BUSCARMASCOTAS = True
+COPIARAPAGE = False
 
 
 class main:
@@ -22,10 +22,13 @@ class main:
 
 if __name__ == "__main__":
     main = main()
-    if BUSCARPROTECTORAS == 1:
+    if BUSCARPROTECTORAS:
+        logging.debug("Starting buscar protectoras")
         main.bp.execute()
-    if BUSCARMASCOTAS == 1:
+    if BUSCARMASCOTAS:
+        logging.debug("Starting buscar mascotas")
         main.bm.execute()
-    if COPIARAPAGE == 1:
+    if COPIARAPAGE:
+        logging.debug("Starting copiar a page")
         main.cp.execute()
 
