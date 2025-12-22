@@ -1,6 +1,10 @@
 import logging
 import json
 import requests
+import os
+from pathlib import Path
+import shutil
+from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from sections.buscadorMascotas.model.mascota import Mascota
 from shared.model.Protectora import Protectora
@@ -12,6 +16,7 @@ class BuscadorMascotasUseCase:
 
     def execute(self):
         logging.debug("BuscadorMascotasUseCase executed")
+        self.limpiarCarpetaImagenes()  # Limpiar la carpeta de imágenes al iniciar
         protectorasComunidadJSON = self.cargarDatos()
         mascotas = self.leerProtectoras(protectorasComunidadJSON)
         self.generarJsonMascotas(mascotas)
@@ -63,11 +68,15 @@ class BuscadorMascotasUseCase:
                         sex = None
                         age = div.contents[1].contents[4]
 
+                    # Descargar la imagen y obtener la ruta local
+                    ruta_imagen_local = self.guardarImagenLocal(
+                        protectora.web + div.a.img.get("src"), protectora.name)
 
+                    
 
                     mascota = Mascota(number=number,
                             name=div.contents[1].span.text,
-                            image=protectora.web + div.a.img.get("src"),
+                            image=ruta_imagen_local,
                             raza = raza,
                             sex=sex,
                             age= age,
@@ -91,10 +100,13 @@ class BuscadorMascotasUseCase:
                 nodos = soup.select("td a img")
 
                 for img in nodos:
+                    # Descargar la imagen y obtener la ruta local
+                    ruta_imagen_local = self.guardarImagenLocal(
+                        img.get("src"), protectora.name)
 
                     mascota = Mascota(number=number,
                             name=img.get("alt"),
-                            image=img.get("src"),
+                            image=ruta_imagen_local,
                             comunidadAutonoma=protectora.comunidad_autonoma,
                             protectora=protectora.name,
                             link = img.get("src"))
@@ -112,3 +124,46 @@ class BuscadorMascotasUseCase:
         logging.debug("escribirFichero() called")
         with open(r"resources/mascotas.json", "w", encoding="utf-8") as file:
             json.dump(mapMascotas, file, ensure_ascii=False, indent=4)
+    
+    def guardarImagenLocal(self, url_imagen: str, protectora_nombre: str) -> str:
+        """
+        Descarga la imagen desde la URL y la guarda en una carpeta local dentro de 'resources/images'.
+        Retorna la ruta local de la imagen.
+        """
+        try:
+            # Crear la carpeta para las imágenes si no existe
+            carpeta_imagenes = Path(f"resources/images/{protectora_nombre}")
+            carpeta_imagenes.mkdir(parents=True, exist_ok=True)
+
+            # Obtener el nombre del archivo desde la URL
+            nombre_archivo = os.path.basename(urlparse(url_imagen).path)
+            ruta_local = carpeta_imagenes / nombre_archivo
+
+            # Descargar la imagen y guardarla localmente
+            headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+                }
+            response = requests.get(url_imagen, stream=True, timeout=10, headers=headers)
+            if response.status_code == 200:
+                with open(ruta_local, "wb") as file:
+                    for chunk in response.iter_content(1024):
+                        file.write(chunk)
+                return str(ruta_local)
+            else:
+                logging.warning(f"No se pudo descargar la imagen: {url_imagen}")
+                return None
+        except Exception as e:
+            logging.error(f"Error al guardar la imagen {url_imagen}: {e}")
+            return None
+        
+    def limpiarCarpetaImagenes(self):
+            """
+            Elimina la carpeta 'resources/images' y todo su contenido si existe.
+            """
+            carpeta_imagenes = Path("resources/images")
+            if carpeta_imagenes.exists() and carpeta_imagenes.is_dir():
+                try:
+                    shutil.rmtree(carpeta_imagenes)  # Eliminar la carpeta y su contenido
+                    logging.info("Carpeta 'resources/images' eliminada correctamente.")
+                except Exception as e:
+                    logging.error(f"Error al eliminar la carpeta 'resources/images': {e}")
